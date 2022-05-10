@@ -1,0 +1,12 @@
+:root {
+  --surface-primary: #131316;
+  --surface-secondary: #18181B;
+  --surface-tertiary: #27272A;
+
+  --brand: #6366F1;
+
+  --text-primary: #FAFAFA;
+  --text-secondary: #D4D4D8;
+  --text-tertiary: #71717A;
+  --text-on-brand: #6366F1;
+}
