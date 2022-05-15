@@ -10,3 +10,9 @@
   --text-tertiary: #71717A;
   --text-on-brand: #6366F1;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
