@@ -1,18 +1,51 @@
 :root {
   --surface-primary: #131316;
-  --surface-secondary: #18181B;
-  --surface-tertiary: #27272A;
+  --surface-secondary: #18181b;
+  --surface-tertiary: #27272a;
 
-  --brand: #6366F1;
+  --brand: #6366f1;
 
-  --text-primary: #FAFAFA;
-  --text-secondary: #D4D4D8;
-  --text-tertiary: #71717A;
-  --text-on-brand: #6366F1;
+  --details: #3f3f46;
+
+  --text-primary: #fafafa;
+  --text-secondary: #d4d4d8;
+  --text-tertiary: #71717a;
+  --text-on-brand: #6366f1;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+
+  background-color: var(--surface-secondary);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 36rem;
+  padding: 1.5rem;
+  margin: 0 auto;
+
+  background-color: var(--surface-primary);
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    padding: 4rem;
+  }
 }
