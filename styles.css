@@ -38,8 +38,8 @@ body {
   background-color: var(--surface-primary);
 }
 
-.footer-content__description {
-  color: #71717A;
+.footer__authors {
+  color: var(--text-tertiary);
   font-family: 'Exo 2';
   font-size: 0.75rem;
   font-style: normal;
@@ -48,8 +48,8 @@ body {
   text-align: center;
 }
 
-.footer-content__description--text-white {
-  color: #D4D4D8;
+.footer__authors--white-text{
+  color: var(--text-secondary);
   font-family: 'Exo 2';
   font-size: 0.75rem;
   font-style: normal;
