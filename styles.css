@@ -54,8 +54,50 @@ body {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5rem;
-  margin: 4rem;
+  margin: 4rem 2rem;
   text-align: center;
+}
+
+.label__ask {
+  color: var(--text-primary);
+  font-family: "Exo 2";
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.flex__input {
+  align-items: center;
+  background-color: var(--details);
+  border-radius: 0.5rem;
+  border: 1px solid var(--surface-tertiary);
+  color: var(--text-tertiary);
+  color: var(--text-tertiary);
+  display: flex;
+  flex-direction: row;
+  font-family: "Exo 2";
+  font-size: 1rem;
+  font-weight: 300;
+  gap: 1rem;
+  line-height: 1.5rem;
+  min-width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.flex__input[type="message"] {
+  height: 7rem;
+}
+
+.button__submit {
+  background-color: var(--brand);
+  border-radius: 5px;
+  border: 1px;
+  color: var(--text-primary);
+  font-family: "Exo 2";
+  line-height: 1.5rem;
+  margin: 2rem 0;
+  padding: 0.3rem 1rem;
 }
 
 .footer__authors {

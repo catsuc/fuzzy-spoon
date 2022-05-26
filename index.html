@@ -31,22 +31,30 @@
 
       <main>
         <form>
-          <label>
-            Quem vai receber a sua mensagem?
-            <input type="email" placeholder="seu@email.com" />
+          <label for="email">
+            <p class="label__ask">Quem vai receber a sua mensagem?</p>
+            <input
+              class="flex__input"
+              type="email"
+              placeholder="seu@email.com"
+            />
           </label>
 
-          <label>
-            Quando essa mensagem vai ser aberta?
-            <input type="date" />
+          <label for="date">
+            <p class="label__ask">Quando essa mensagem vai ser aberta?</p>
+            <input class="flex__input" type="date" />
           </label>
 
-          <label>
-            O que você quer enviar para o futuro?
-            <textarea placeholder="A 10 anos atrás"></textarea>
+          <label for="message">
+            <p class="label__ask">O que você quer enviar para o futuro?</p>
+            <textarea
+              class="flex__input"
+              type="message"
+              placeholder="A 10 anos atrás"
+            ></textarea>
           </label>
 
-          <button>Enviar</button>
+          <button class="button__submit">Enviar</button>
         </form>
       </main>
 
@@ -56,7 +64,7 @@
           <a
             target="_blank"
             class="footer__authors--highlight"
-            href="https://github.com/Jovens-Gafanhotos/l"
+            href="https://github.com/Jovens-Gafanhotos/"
             rel="noopener noreferrer"
             >Jovens Gafanhotos</a
           >
