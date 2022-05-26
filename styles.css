@@ -38,6 +38,18 @@ body {
   background-color: var(--surface-primary);
 }
 
+.footer__authors {
+  color: var(--text-tertiary);
+  font-family: "Exo 2";
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer__authors--highlight {
+  color: var(--text-secondary);
+}
+
 @media (min-width: 768px) {
   .content {
     padding: 2rem;
