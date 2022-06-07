@@ -30,23 +30,27 @@
       </header>
 
       <main>
-        <form>
-          <label>
-            Quem vai receber a sua mensagem?
-            <input type="email" placeholder="seu@gmail.com" />
+        <form class="form">
+          <label for="email">
+            <p class="form__paragraph">Quem vai receber a sua mensagem?</p>
+            <input class="input" type="email" placeholder="seu@email.com" />
           </label>
 
-          <label>
-            Quando essa mensagem vai ser aberta?
-            <input type="date" />
+          <label for="date">
+            <p class="form__paragraph">Quando essa mensagem vai ser aberta?</p>
+            <input class="input" type="date" />
           </label>
 
-          <label>
-            O que você quer enviar para o futuro?
-            <textarea placeholder="A 10 anos atrás"></textarea>
+          <label for="message">
+            <p class="form__paragraph">O que você quer enviar para o futuro?</p>
+            <textarea
+              class="textarea"
+              type="message"
+              placeholder="A 10 anos atrás"
+            ></textarea>
           </label>
 
-          <button>Enviar</button>
+          <button class="button">Enviar</button>
         </form>
       </main>
 
