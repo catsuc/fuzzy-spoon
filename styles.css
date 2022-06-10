@@ -38,6 +38,12 @@ body {
   background-color: var(--surface-primary);
 }
 
+.header {
+  font-family: "Exo 2";
+  font-weight: 300;
+  text-align: center;
+}
+
 .header__title {
   color: var(--text-primary);
   font-family: "Exo 2";
@@ -45,12 +51,6 @@ body {
   font-weight: 700;
   line-height: 3.5rem;
   margin-bottom: 1rem;
-  text-align: center;
-}
-
-.header {
-  font-family: "Exo 2";
-  font-weight: 300;
   text-align: center;
 }
 
