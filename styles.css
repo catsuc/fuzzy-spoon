@@ -38,6 +38,29 @@ body {
   background-color: var(--surface-primary);
 }
 
+.header {
+  font-family: "Exo 2";
+  font-weight: 300;
+  text-align: center;
+}
+
+.header__title {
+  color: var(--text-primary);
+  font-family: "Exo 2";
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.header__paragraph {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 4rem;
+}
+
 .footer__authors {
   color: var(--text-tertiary);
   font-family: "Exo 2";
