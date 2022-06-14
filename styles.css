@@ -39,26 +39,26 @@ body {
 }
 
 .form {
-  margin: 0 4rem;
-  margin-top: 4rem;
+  margin: 4rem auto 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.form__paragraph {
+.form__label {
   color: var(--text-primary);
   font-family: "Exo 2";
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5rem;
+  margin-bottom: 0.25rem;
 }
 
-.input {
+.form__input {
   margin-bottom: 1rem;
-  height: 2rem;
-  width: 100%;
   max-width: 450px; /* just a fallback for large screen sizes */
-  border: 1px solid var(--details);
+  border: none;
   border-radius: 0.5rem;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   background-color: var(--surface-tertiary);
   color: var(--text-tertiary);
   font-family: "Exo 2";
@@ -67,33 +67,35 @@ body {
   line-height: 1.5rem;
 }
 
-.textarea {
-  height: 10rem;
-  width: 100%;
+.form__textarea {
   max-width: 450px; /* just a fallback for large screen size */
   max-height: 200px; /* just a fallback for large screen size */
-  border: 1px solid var(--details);
+  border: none;
   border-radius: 0.5rem;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   background-color: var(--surface-tertiary);
   color: var(--text-tertiary);
   font-family: "Exo 2";
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.5rem;
+  resize: none;
 }
 
-.button {
-  display: block;
-  margin-top: 2rem;
-  padding: 0.5rem 1.5rem;
+.form__textarea--multiline {
+  min-height: 10rem;
+}
+
+.form__submit--button {
+  padding: 0.5rem 1rem;
   background-color: var(--brand);
   border-radius: 0.5rem;
   border: none;
-  color: white;
+  color: var(--text-primary);
   font-size: 1rem;
-  margin-bottom: 2rem;
   font-family: "Exo 2";
+  align-self: flex-end;
+  margin-top: 2rem;
 }
 
 .footer__authors {

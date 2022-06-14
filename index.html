@@ -32,25 +32,25 @@
       <main>
         <form class="form">
           <label for="email">
-            <p class="form__paragraph">Quem vai receber a sua mensagem?</p>
-            <input class="input" type="email" placeholder="seu@email.com" />
+            <p class="form__label">Quem vai receber a sua mensagem?</p>
           </label>
+          <input class="form__input" type="email" placeholder="seu@email.com" />
 
           <label for="date">
-            <p class="form__paragraph">Quando essa mensagem vai ser aberta?</p>
-            <input class="input" type="date" />
+            <p class="form__label">Quando essa mensagem vai ser aberta?</p>
           </label>
+          <input class="form__input" type="date" />
 
           <label for="message">
-            <p class="form__paragraph">O que você quer enviar para o futuro?</p>
-            <textarea
-              class="textarea"
-              type="message"
-              placeholder="A 10 anos atrás"
-            ></textarea>
+            <p class="form__label">O que você quer enviar para o futuro?</p>
           </label>
+          <textarea
+            class="form__textarea form__textarea--multiline"
+            id="message"
+            placeholder="Há 10 anos atrás..."
+          ></textarea>
 
-          <button class="button">Enviar</button>
+          <button class="form__submit--button">Enviar</button>
         </form>
       </main>
 
