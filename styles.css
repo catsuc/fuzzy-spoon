@@ -60,7 +60,7 @@ body {
   padding: 0.5rem 1rem;
 
   background-color: var(--surface-tertiary);
-  border: none;
+  border: 1px solid var(--details);
   border-radius: 0.5rem;
 
   color: var(--text-tertiary);
