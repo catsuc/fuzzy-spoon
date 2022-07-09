@@ -42,6 +42,7 @@ body {
   font-family: "Exo 2";
   font-weight: 300;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .header__title {
@@ -58,7 +59,66 @@ body {
   color: var(--text-secondary);
   font-size: 1rem;
   line-height: 1.5rem;
-  margin-bottom: 4rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto 2rem;
+}
+
+.form__label {
+  margin-bottom: 0.25rem;
+
+  color: var(--text-primary);
+  font-family: "Exo 2";
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.form__input {
+  outline: none;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+
+  background-color: var(--surface-tertiary);
+  border: 1px solid var(--details);
+  border-radius: 0.5rem;
+
+  color: var(--text-tertiary);
+  font-family: "Exo 2";
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.form__input:focus {
+  color: var(--text-secondary);
+  border-color: var(--brand);
+}
+
+.form__input--multiline {
+  height: 9rem;
+  resize: none;
+}
+
+.form__submit {
+  align-self: flex-end;
+
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+
+  background-color: var(--brand);
+  border-radius: 0.5rem;
+  border: none;
+
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-family: "Exo 2";
+
+  cursor: pointer;
 }
 
 .footer__authors {
