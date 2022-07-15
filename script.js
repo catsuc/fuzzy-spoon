@@ -1,5 +1,5 @@
 const formElement = document.querySelector("form");
 
 formElement.addEventListener("submit", (event) => {
-  event.preventDefault();
+  event.preventDefault(); // não enviar o formulário
 });
