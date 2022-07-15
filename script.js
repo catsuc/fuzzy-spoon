@@ -1,6 +1,6 @@
 const formElement = document.querySelector("form");
-const inputEmail = document.querySelector(".email");
-const inputDate = document.querySelector(".date");
+const inputEmail = document.querySelector("#email");
+const inputDate = document.querySelector("#date");
 const textAreaMessage = document.querySelector("#message");
 
 formElement.addEventListener("submit", (event) => {
