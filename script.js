@@ -1,5 +1,5 @@
-const buttonFormElement = document.querySelector("form");
+const buttonFormElement = document.querySelector(".form__submit");
 
-buttonFormElement.addEventListener("submit", (event) => {
+buttonFormElement.addEventListener("click", (event) => {
   event.preventDefault();
 });
