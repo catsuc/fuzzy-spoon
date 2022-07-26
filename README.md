@@ -4,15 +4,15 @@ Essa aplicação permite ao usuário enviar emails em datas específicas, seja p
 
 ## 👥 Autores
 
-- [Miguel Ângelo](https://www.github.com/miguel5g)
-- [Victor Gabriel](https://www.github.com/victorbr988)
-- [Francisco Calado](https://github.com/fmcalado)
 - [Breno Araújo](https://github.com/BrenoHaraujo2503)
+- [Francisco Calado](https://github.com/fmcalado)
 - [Jhonata Rodrigues](https://github.com/mathdothings)
+- [Miguel Ângelo](https://github.com/miguel5g)
+- [Victor Gabriel](https://github.com/victorbr988)
 
 ## 🛠 Stack utilizada
 
-_Front-end:_ Html, CSS e Javascript
+_Front-end:_ HTML, CSS e Javascript
 
 _Back-end:_ Node, Typescript
 
