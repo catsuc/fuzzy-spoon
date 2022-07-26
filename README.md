@@ -1,6 +1,6 @@
 # ⏳ Cápsula do tempo
 
-Esta aplicação permite que o usuário possa enviar emails em datas específicas, seja para ele mesmo ou para qualquer outra pessoa.
+Essa aplicação permite ao usuário enviar emails em datas específicas, seja para ele mesmo ou para outras pessoas.
 
 ## 👥 Autores
 
@@ -12,7 +12,7 @@ Esta aplicação permite que o usuário possa enviar emails em datas específica
 
 ## 🛠 Stack utilizada
 
-_Front-end:_ Html, Css e Javascript
+_Front-end:_ Html, CSS e Javascript
 
 _Back-end:_ Node, Typescript
 
