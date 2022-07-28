@@ -87,7 +87,7 @@ body {
   border: 1px solid var(--details);
   border-radius: 0.5rem;
 
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   font-family: "Exo 2";
   font-weight: 300;
   font-size: 1rem;
@@ -95,7 +95,6 @@ body {
 }
 
 .form__input:focus {
-  color: var(--text-secondary);
   border-color: var(--brand);
 }
 
