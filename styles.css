@@ -105,9 +105,11 @@ body {
 }
 
 .form__submit {
-  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 
-  margin-top: 1rem;
+  margin: 1rem 0 0 auto;
   padding: 0.5rem 1rem;
 
   background-color: var(--brand);
