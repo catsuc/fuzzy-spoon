@@ -123,6 +123,11 @@ body {
   cursor: pointer;
 }
 
+.form__submit--send-icon {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
 .footer__authors {
   color: var(--text-tertiary);
   font-family: "Exo 2";
