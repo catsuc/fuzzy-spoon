@@ -104,9 +104,11 @@ body {
 }
 
 .form__submit {
-  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 
-  margin-top: 1rem;
+  margin: 1rem 0 0 auto;
   padding: 0.5rem 1rem;
 
   background-color: var(--brand);
@@ -118,6 +120,11 @@ body {
   font-family: "Exo 2";
 
   cursor: pointer;
+}
+
+.form__submit--send-icon {
+  width: 1.375rem;
+  height: 1.375rem;
 }
 
 .footer__authors {
