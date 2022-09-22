@@ -15,7 +15,7 @@ formElement.addEventListener("submit", (event) => {
 
   saveMessage.disabled = true;
 
-  fetch("https://crispy-fortnight.catsuc.com/message", {
+  fetch("https://crispy-fortnight.catsuc.com/messages", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(messageData),
