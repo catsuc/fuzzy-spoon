@@ -122,6 +122,10 @@ body {
   cursor: pointer;
 }
 
+.form__submit:disabled {
+  opacity: 0.75;
+}
+
 .form__submit--send-icon {
   width: 1.375rem;
   height: 1.375rem;
