@@ -154,3 +154,15 @@ body {
     padding: 4rem;
   }
 }
+
+.toast-sucess {
+  background-color: #4d4fef;
+  font-family: 'Exo 2';
+  animation-duration: 1000;
+}
+
+.toast-failure {
+  background-color: red;
+  font-family: 'Exo 2';
+  animation-duration: 1000;
+}
