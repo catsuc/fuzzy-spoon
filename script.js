@@ -13,17 +13,20 @@ formElement.addEventListener("submit", (event) => {
     targetDate: inputDate.value, // yyyy-m-d
   };
 
-  saveMessage.disabled = true;
+  saveMessage.disabled = true
 
   fetch("https://crispy-fortnight.catsuc.com/messages", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(messageData),
   })
-    .then(() => alert("Message salva com sucesso"))
-    .catch((error) => {
-      console.error(error);
-      alert("Algo deu errado");
-    })
+    .then(() => Toastify({
+      text: "Mensagem enviada com sucesso",
+      className: "toast-success"
+    }).showToast())
+    .catch((error) => Toastify({
+      text: "algo deu errado",
+      className: "toast-failure"
+    }).showToast())
     .finally(() => (saveMessage.disabled = false));
 });
