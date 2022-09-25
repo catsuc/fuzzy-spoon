@@ -14,13 +14,17 @@ formElement.addEventListener("submit", (event) => {
   };
 
   saveMessage.disabled = true;
+  saveMessage.classList.toggle("form__submit--loading");
 
   fetch("https://crispy-fortnight.catsuc.com/messages", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(messageData),
   })
-    .then(() => alert("Message salva com sucesso"))
+    .then(() => {
+      alert("Message salva com sucesso");
+      saveMessage.classList.toggle("form__submit--loading");
+    })
     .catch((error) => {
       console.error(error);
       alert("Algo deu errado");
